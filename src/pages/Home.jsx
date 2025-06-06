@@ -68,8 +68,9 @@ const Home = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="mb-6 font-bold leading-tight">
-                <span className="text-primary-600">A World Wide Glow-Up</span> - The BIG Idea
+              <h1 className="mb-6 font-bold leading-tight text-4xl md:text-5xl lg:text-6xl">
+                <span className="text-primary-600 block font-extrabold">A World Wide Glow-Up</span>
+                <span className="block">The <span className="text-[#5D7052]">BIG</span> Idea</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 A comprehensive framework for personal and professional development that balances self-improvement, relationships, systems, and continuous growth.
